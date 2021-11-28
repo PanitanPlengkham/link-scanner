@@ -9,7 +9,7 @@ def get_links(url:str):
               a list of all unique hyperlinks on the page,
               without page fragments or query parameters.
     """
-    driver = webdriver.Chrome("/Users/panitanplengkham/Desktop/ISP/link-scanner-PanitanPlengkham/chromedriver")
+    driver = webdriver.Chrome("/Users/panitanplengkham/Desktop/link-scanner/chromedriver")
     driver.get(url)
     url_list = []
     for elements in driver.find_elements_by_xpath("//a[@href]"):

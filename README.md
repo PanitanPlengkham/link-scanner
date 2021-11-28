@@ -2,7 +2,6 @@
 
 A Python program that scans a web page for hyperlinks.  It prints all the hyperlinks found on a page and then prints (again) any bad links.
 
-See <https://cpske.github.io/ISP/assignment/week15/selenium> for details.
 
 Usage:
 ```
