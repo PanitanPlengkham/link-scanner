@@ -2,7 +2,6 @@
 
 A Python program that scans a web page for hyperlinks.  It prints all the hyperlinks found on a page and then prints (again) any bad links.
 
-
 Usage:
 ```
 python3 link_scan.py  url-to-scan
